@@ -1,0 +1,44 @@
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+
+# --- IDE / Editors ---
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+
+# Generic Java build dirs (some IDEs write here)
+bin/
+out/
+
+# --- Maven build ---
+target/
+# Maven release plugin backups
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# --- Java / runtime artifacts ---
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+heapdump*.hprof
+
+# --- Temp files ---
+*.swp
+*.swo
+*~
