@@ -37,7 +37,6 @@
         </configuration>
       </plugin>
 
-      <!-- 啟用 JUnit 5 測試 -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
